@@ -71,9 +71,7 @@ public class Automovil {
             costo += opcionales.getLlantasAleacion() == 1 ? 12000 : 0;
         }
         
-        this.setCosto(costo);
-        
-        return this.getCosto();
+        return costo;
     };
     
     @Override

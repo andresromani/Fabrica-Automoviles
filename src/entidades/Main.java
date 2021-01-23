@@ -38,8 +38,8 @@ public class Main {
         auto8.calcularCosto();
         auto9.calcularCosto();
         auto10.calcularCosto();
-        auto11.calcularCosto();
-        auto12.calcularCosto();
-        auto13.calcularCosto();
+        System.out.println("El costo del auto11: " + auto11.calcularCosto());
+        System.out.println("El costo del auto12: " + auto12.calcularCosto());
+        System.out.println("El costo del auto13: " + auto13.calcularCosto());
     }
 }
